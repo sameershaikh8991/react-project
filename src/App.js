@@ -2,7 +2,14 @@
 import './App.css';
 import About from './components/About';
 import Navbar from './components/Navbar';
-import React ,{ useState } from 'react'
+import React ,{ useState } from 'react';
+
+import {
+  createBrowserRouter,
+  RouterProvider,
+  Route,
+  Link,
+} from "react-router-dom";
 
 let name ="sameer"
 function App() {
